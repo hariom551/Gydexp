@@ -7,6 +7,7 @@ import UMLI from '../Components/GydeImages/UMLI.png';
 import TTYC from '../Components/GydeImages/TTYC.png';
 import CAC from '../Components/GydeImages/CAC.png';
 import HFFS from '../Components/GydeImages/HFFS.png';
+import Hariom from '../Components/GydeImages/Hariom.jpg';
 
 
 
@@ -42,7 +43,7 @@ const ExploreGydes = () => {
             renderSurplus={(surplus) => <span>+{}</span>}
             total={570}
           >
-            <Avatar alt="Hariom" src="/static/images/avatar/1.jpg" />
+            <Avatar alt="Hariom" src={Hariom} />
             <Avatar alt="Shubham" src="/static/images/avatar/2.jpg" />
             <Avatar alt="Yashendra" src="/static/images/avatar/4.jpg" />
             <Avatar alt="Trevor" src="/static/images/avatar/5.jpg" />

@@ -4,75 +4,57 @@
 
 
 .pillars-heading {
-    margin-bottom: 20px;
-    font-size: 24px;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .pillars {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .pillar {
-    max-width: 250px;
-    margin: 20px;
-    /* text-align: center; */
+  max-width: 250px;
+  margin: 20px;
+  /* text-align: center; */
 }
 
-.Pimage{
-    width: 80%;
-    height: auto;
-    border-radius: 10px;
+.Pimage {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .pillar h3 {
-    margin-top: 10px;
-    font-size: 18px;
-    color: white;
-    font-weight: 900px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: 900px;
 }
 
 .pillar p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
 }
 
 
+.most-read ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  
-  /* .most-read {
-    flex: 1;
-    margin-top: 5%;
-  } */
-  
- 
-  
-  .most-read ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .most-read li {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .thumbnail {
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-    border-radius: 10px;
-  }
-  
-  .article-info p {
-    margin: 0;
-  }
-  
-  .article-info .meta {
-    color: #999;
-    font-size: 0.9em;
-  }
-  
+.most-read li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
