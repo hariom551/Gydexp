@@ -31,7 +31,7 @@ const ExploreGydes = () => {
         <input
           type="text"
           placeholder="Search for Places, Pincodes, Travel Destinations"
-          className="w-full p-4 pl-10 rounded-lg text-white bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full p-4 pl-10 rounded-lg text-white bg-gray-700 bg-opacity-30 focus:outline-none focus:ring-2 focus:ring-blue-500"
           style={{ backdropFilter: 'blur(10px)' }}
         />
       </div>

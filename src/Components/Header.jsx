@@ -56,7 +56,8 @@ const Header = () => {
             className={`navbar-link cursor-pointer ${activeLink === 'Explore Us' ? 'text-yellow-400 active' : 'text-gray-400'} hover:text-white`}
             onClick={() => handleLinkClick('Explore Us')}
           >
-            Explore Us
+             {/* <Link to="/exploreUs">Explore us</Link> */}
+             Explore us
           </li>
         </ul>
         <span
