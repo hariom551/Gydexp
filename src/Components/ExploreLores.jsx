@@ -92,16 +92,20 @@ const ExploreLores = () => {
 
 
         <div className="most-read flex-[1] relative ">
-          <span className="border border-yellow-400 text-yellow-400 py-1 px-6 mb-18 rounded-[8px]">Most Read</span>
+        <button className='border-2 border-yellow-400 text-xl px-4 mb-5 rounded-[8px] py-1 text-yellow-400'>Most Read</button>
+          {/* <span className="border border-yellow-400 text-yellow-400 py-1 px-6 mb-18 rounded-[8px]">Most Read</span> */}
           {/* <h3>Most Read</h3> */}
           <ul>
             {articles.map((article, index) => (
               <li key={index}>
-                <img src={mostRead} alt="Thumbnail" className="thumbnail " />
+                {/* <img src={mostRead} alt="" className='w-full h-auto hover:translate-x-2 hover:transform-gpu hover:scale-105' /> */}
+                <img src={mostRead} alt="" className='w-20 hover:translate-2 hover:transform-gpu hover:scale-105' />
+                {/* <img src={mostRead} alt="Thumbnail" className="thumbnail " /> */}
+                
                 <div className="article-info">
-                  <p>{article}</p>
+                  <p className="ml-3">{article}</p>
 
-                  <p className="flex justify-between items-center ">
+                  <p className="ml-3 flex justify-between items-center ">
                     <span className="text-yellow-400">
                       Lifestyle <span className="mx-2">&bull;</span>
                       Travel <span className="mx-2">&bull;</span>
