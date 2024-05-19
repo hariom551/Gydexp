@@ -63,22 +63,25 @@ const ExploreGydes = () => {
      
       <div className="pillars">
         <div className="pillar">
-          <img src={UMLI} alt="UMLI" className="Pimage" />
+        <img src={UMLI} alt="" className='Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105' />
+
+          
           <h3 >Unmatched Local Insights</h3>
           <p>Dive into the unseen, guided by those who know it best.</p>
         </div>
         <div className="pillar">
-          <img src={TTYC} alt="TTYC" className="Pimage" />
+        <img src={TTYC} alt="TTYC" className='Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105' />
           <h3>Tailored to Your Curiosity</h3>
           <p>Making every journey as unique as you are.</p>
         </div>
         <div className="pillar">
-          <img src={CAC} alt="CAC" className="Pimage" />
+        
+          <img src={CAC} alt="CAC" className="Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105" />
           <h3>Connect Across Cultures</h3>
-          <p>Beyond places, it’s the people you meet & the culture you celebrate.</p>
+          <p>Beyond places, it's the people you meet & the culture you celebrate.</p>
         </div>
         <div className="pillar">
-          <img src={HFFS} alt="HFFS" className="Pimage" />
+          <img src={HFFS} alt="HFFS" className="Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105" />
           <h3>Hassle-Free, Full Support</h3>
           <p>Smooth sailing from search to memories.</p>
         </div>

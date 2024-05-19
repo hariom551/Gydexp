@@ -27,16 +27,16 @@ const ExploreLores = () => {
     <>
       <div className='w-full h-[100vh] bg-[#160D19] relative flex flex-col items-center justify-center'>
         <img src={imgHW1} alt="hariom" style={{ objectFit: "cover", width: "100%" }} className='absolute h-[100vh] ' />
-        <div className='z-10 flex flex-col items-center justify-center gap-20 mb-28'>
+        <div className='z-10 flex flex-col items-center justify-center gap-20 mb-20 mt-20'>
 
           <div className='flex flex-col items-center justify-center gap-3'>
-            <h1 className="text-white text-4xl md:text-6xl font-playfair mb-4 mt-12">
+            <h1 className="text-white text-4xl md:text-6xl font-playfair mb-4 mt-36">
               Explore Gyde Lores
             </h1>
             <img src={imgHW} alt="" className='sm:h-24 ' />
           </div>
 
-          <div>
+          <div className="mb-36">
             <div className="relative w-full max-w-xl  ">
               <FaSearch className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400 w-5 h-5 z-10" />
               <input
