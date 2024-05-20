@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.backGroundImage{
+  background-image: url('https://gyde-webapp-reactjs.onrender.com/rectangle.png');
+}
 .pillars-heading {
   margin-bottom: 20px;
   font-size: 24px;

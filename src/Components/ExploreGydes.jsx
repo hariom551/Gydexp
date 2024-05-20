@@ -14,83 +14,92 @@ import Hariom from '../Components/GydeImages/Hariom.jpg';
 const ExploreGydes = () => {
   return (
     <>
-    <div
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-900 bg-cover bg-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    >
-      <h1 className="text-white text-4xl md:text-6xl font-playfair mb-4 mt-12">
-        Reimagining Experiences
-      </h1>
-      <p className="text-white text-4xl md:text- font-dancing italic mb-8">
-        for those who wander
-      </p>
+      <div
+        className="min-h-screen flex flex-col items-center justify-center bg-gray-900 bg-cover bg-center"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
+        <h1 className="text-center text-white text-4xl md:text-6xl font-playfair mb-4 mt-12">
+          Reimagining Experiences
+        </h1>
+        <p className="text-white text-4xl md:text- font-dancing italic mb-8">
+          for those who wander
+        </p>
 
-     
+        {/*      
       <div className="relative w-full max-w-lg mt-2">
         <FaSearch className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400 w-5 h-5 z-10" />
         <input
           type="text"
           placeholder="Search for Places, Pincodes, Travel Destinations"
-          className="w-full p-4 pl-10 rounded-lg text-white bg-gray-700 bg-opacity-30 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full ml-5 p-4 pl-10 rounded-lg text-white bg-gray-700 bg-opacity-30 focus:outline-none focus:ring-2 focus:ring-blue-500"
           style={{ backdropFilter: 'blur(10px)' }}
         />
-      </div>
+      </div> */}
 
-      <div className="flex justify-center items-center mt-12">
-        <div className="flex space-x-2">
-          <AvatarGroup
-            max={6}
-            renderSurplus={(surplus) => <span>+{}</span>}
-            total={570}
-          >
-            <Avatar alt="Hariom" src={Hariom} />
-            <Avatar alt="Shubham" src="/static/images/avatar/2.jpg" />
-            <Avatar alt="Yashendra" src="/static/images/avatar/4.jpg" />
-            <Avatar alt="Trevor" src="/static/images/avatar/5.jpg" />
-            <Avatar alt="Grevor" src="/static/images/avatar/6.jpg" />
-            <Avatar alt="Trevor" src="/static/images/avatar/7.jpg" />
-          </AvatarGroup>
-        </div>
-        <p className='text-white mx-2'>Look what experience 570 people around you recommend</p>
-        <button className="bg-yellow-400 hover:bg-yellow-300 text-black py-2 px-4 rounded-xl">
-          Gyde Now
-        </button>
-      </div>
-    </div>
-  
-    <div className="pillars-container flex flex-col items-center justify-center bg-gray-900 bg-cover bg-center">
-      <h2 className="pillars-heading text-white mt-4">The four pillars that define the Gyde experience</h2>
-     
-      <div className="pillars">
-        <div className="pillar">
-        <img src={UMLI} alt="" className='Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105' />
-
+        <div className=' py-2 flex px-4  items-center justify-center gap-3 w-[55vw] rounded-xl backGroundImage' >
+          <FaSearch className='text-2xl' />
+          <input type="text"
+          placeholder="Search for Places, Pincodes, Travel Destinations"
+          className='border-none focus:outline-none font-semibold text-white w-full py-2 bg-transparent' />
           
-          <h3 >Unmatched Local Insights</h3>
-          <p>Dive into the unseen, guided by those who know it best.</p>
         </div>
-        <div className="pillar">
-        <img src={TTYC} alt="TTYC" className='Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105' />
-          <h3>Tailored to Your Curiosity</h3>
-          <p>Making every journey as unique as you are.</p>
-        </div>
-        <div className="pillar">
-        
-          <img src={CAC} alt="CAC" className="Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105" />
-          <h3>Connect Across Cultures</h3>
-          <p>Beyond places, it's the people you meet & the culture you celebrate.</p>
-        </div>
-        <div className="pillar">
-          <img src={HFFS} alt="HFFS" className="Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105" />
-          <h3>Hassle-Free, Full Support</h3>
-          <p>Smooth sailing from search to memories.</p>
+
+
+        <div className="flex justify-center items-center mt-12">
+          <div className="flex space-x-2">
+            <AvatarGroup
+              max={6}
+              renderSurplus={(surplus) => <span>+{ }</span>}
+              total={570}
+            >
+              <Avatar alt="Hariom" src={Hariom} />
+              <Avatar alt="Shubham" src="/static/images/avatar/2.jpg" />
+              <Avatar alt="Yashendra" src="/static/images/avatar/4.jpg" />
+              <Avatar alt="Trevor" src="/static/images/avatar/5.jpg" />
+              <Avatar alt="Grevor" src="/static/images/avatar/6.jpg" />
+              <Avatar alt="Trevor" src="/static/images/avatar/7.jpg" />
+            </AvatarGroup>
+          </div>
+          <p className='text-white mx-2'>Look what experience 570 people around you recommend</p>
+          <button className="bg-yellow-400 hover:bg-yellow-300 text-black py-2 px-4 rounded-xl">
+            Gyde Now
+          </button>
         </div>
       </div>
-    </div>
-  
+
+      <div className="pillars-container flex flex-col items-center justify-center bg-gray-900 bg-cover bg-center">
+        <h2 className="pillars-heading text-white mt-4">The four pillars that define the Gyde experience</h2>
+
+        <div className="pillars">
+          <div className="pillar">
+            <img src={UMLI} alt="" className='Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105' />
+
+
+            <h3 >Unmatched Local Insights</h3>
+            <p>Dive into the unseen, guided by those who know it best.</p>
+          </div>
+          <div className="pillar">
+            <img src={TTYC} alt="TTYC" className='Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105' />
+            <h3>Tailored to Your Curiosity</h3>
+            <p>Making every journey as unique as you are.</p>
+          </div>
+          <div className="pillar">
+
+            <img src={CAC} alt="CAC" className="Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105" />
+            <h3>Connect Across Cultures</h3>
+            <p>Beyond places, it's the people you meet & the culture you celebrate.</p>
+          </div>
+          <div className="pillar">
+            <img src={HFFS} alt="HFFS" className="Pimage hover:translate-x-2 hover:transform-gpu hover:scale-105" />
+            <h3>Hassle-Free, Full Support</h3>
+            <p>Smooth sailing from search to memories.</p>
+          </div>
+        </div>
+      </div>
+
 
     </>
-);
+  );
 };
 
 export default ExploreGydes;
