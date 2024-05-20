@@ -16,14 +16,14 @@ const ExploreLoress = () => {
                         <div className='flex flex-col items-center justify-center gap-4'>
 
                             <p className='text-white md:text-[4.5rem] text-4xl font-serif'>Explore Gyde Lores</p>
-                            <img src={imgHW} alt="" className='sm:h-24 h-16' />
+                            <img src={imgHW} alt="" className='slide-top sm:h-24 h-16' />
                         </div>
                         <div className='flex flex-col items-center justify-center gap-4'>
                             <div className=' py-2 flex px-4  items-center justify-center gap-3 w-[55vw] rounded-xl backGroundImage' >
                                 <FaSearch className='text-2xl' />
                                 <input type="text" className='border-none focus:outline-none font-semibold text-white w-full py-2 bg-transparent' />
                             </div>
-                            <div className='flex items-center justify-center gap-3    text-lg  text-white' >
+                            <div className='slide-top flex items-center justify-center gap-4    text-lg  text-white' >
                                 <p>All categories</p>
                                 <p>Animations</p>
                                 <p>Design</p>

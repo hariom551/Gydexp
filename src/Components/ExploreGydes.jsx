@@ -21,7 +21,7 @@ const ExploreGydes = () => {
         <h1 className="text-center text-white text-4xl md:text-6xl font-playfair mb-4 mt-12">
           Reimagining Experiences
         </h1>
-        <p className="text-white text-4xl md:text- font-dancing italic mb-8">
+        <p className="slide-top text-white text-4xl md:text- font-dancing italic mb-8">
           for those who wander
         </p>
 
@@ -45,7 +45,7 @@ const ExploreGydes = () => {
         </div>
 
 
-        <div className="flex justify-center items-center mt-12">
+        <div className="slide-top flex justify-center items-center mt-12">
           <div className="flex space-x-2">
             <AvatarGroup
               max={6}
