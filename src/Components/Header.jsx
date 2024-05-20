@@ -38,8 +38,8 @@ const Header = () => {
         <img style={{ height: '35px' }} src="https://gyde-webapp-reactjs.onrender.com/logo.svg" alt="Gyde Logo" />
       </div>
 
-      <div className="relative">
-        <ul className="flex space-x-4 list-none m-0 p-2 border-b-4">
+      <div className="relative ">
+        <ul className="flex gap-[5vw] list-none m-0 p-2 border-b-4 ">
           <li
             className={`navbar-link cursor-pointer ${activeLink === 'Explore Gydes' ? 'text-yellow-400 active' : 'text-gray-400'} hover:text-white`}
             onClick={() => handleLinkClick('Explore Gydes')}
