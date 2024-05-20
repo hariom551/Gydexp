@@ -35,11 +35,11 @@ const Header = () => {
   return (
     <nav style={{ boxShadow: "0 15px 68px 15px " }} className="fixed top-0 left-0 right-0 flex justify-between items-center bg-gray-900 p-4 shadow-md z-50">
       <div>
-        <img style={{ height: '35px' }} src="https://gyde-webapp-reactjs.onrender.com/logo.svg" alt="Gyde Logo" />
+        <img style={{ height: '35vw' }} src="https://gyde-webapp-reactjs.onrender.com/logo.svg" alt="Gyde Logo" />
       </div>
 
       <div className="relative ">
-        <ul className="flex gap-[5vw] list-none m-0 p-2 border-b-4 ">
+        <ul className="flex gap-[4vw] list-none m-0 p-2 border-b-4 ">
           <li
             className={`navbar-link cursor-pointer ${activeLink === 'Explore Gydes' ? 'text-yellow-400 active' : 'text-gray-400'} hover:text-white`}
             onClick={() => handleLinkClick('Explore Gydes')}
