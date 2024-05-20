@@ -43,7 +43,7 @@ const ExploreLoress = () => {
 
                         <div className="col-md-6" >
                             <button className='border-2 border-yellow-600 text-xl px-4 mb-5 rounded-md py-1 text-yellow-600'>Featured</button>
-                            <img src={blur} alt="" className='ml-8 hover:translate-x-2 hover:transform-gpu hover:scale-105' />
+                            <img src={blur} alt="" className='ml-8 hover:translate-x-1 hover:transform-gpu hover:scale-105' />
                             <div className='my-3'>
                                 <div className='flex items-center justify-between'>
                                     <span className="text-yellow-400">
